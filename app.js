@@ -36,7 +36,7 @@ function setAlarm() {
   if (distance < 0) {
     clearInterval(x);
     para.innerHTML = `IT'S ALARM TIME!`;
-    let audio = new Audio('slotmachine.wav');
+    let audio = new Audio('onenight.m4a');
     audio.play();
     btn2.style.visibility = 'visible';
     btn2.addEventListener('click', () => {
