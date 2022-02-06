@@ -4,34 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alarm Clock app</title>
+    <title>Music Player app</title>
     <link rel="stylesheet" href="style.css"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-  <nav>
-    <h1>ALARM APP
-        <i class="fa fa-clock-o"></i>
-    </h1>
-</nav>
+  <h1>Music Player</h1>
 
-<div class="container">
-    <p>Enter the time</p>
-    <div class="inputs">
-        <input type="number" id="txt" placeholder="" class="time" autocomplete="off">
-        <span>:</span>
-        <input type="number" id="txt2" placeholder="" class="time" autocomplete="off">
-    </div>
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
 
-    <div class="btns">
-        <button id="btn" class="butt">SET</button>
-        <button id="btn2" class="butt">STOP</button>
+      <audio src="music/weareyoung.m4a" id="audio"></audio>
+
+      <div class="img-container">
+        <img src="images/weareyoung.jpg" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fa fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fa fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fa fa-forward"></i>
+        </button>
+      </div>
     </div>
-    <div class="info">
-        <p id="para"></p>
-    </div>
-</div>
 
 
     <div class="social-panel-container">
