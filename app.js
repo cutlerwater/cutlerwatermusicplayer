@@ -12,7 +12,7 @@ const currTime = document.querySelector("#currTime");
 const durTime = document.querySelector("#durTime");
 
 // Song titles
-const songs = ["Beatles- Get Back", "Beethoven 9th Symphony", "Bryan Adams- One Night Love Affair", "Asia- Only Time Will Tell", "Fun- We are young", "Eagles- Doolin Dalton",  "Jurassic Park Theme", "Mozart- Eine Kleine NachtMusik", "Mozart- Marriage of Figaro", "Four Seasons- Cant Take My Eyes Off of You", "Rocky Theme- Gonna Fly Now", "Counting Crows- Hanging Around", "Go Gos- Head Over Heels", "Bryan Adams- Long Gone", "Bruce Springsteen- Im going down", "Barenaked Ladies- One Week", "Blow Monkeys- You dont own me", "Bob Marley- Three Little Birds", 
+const songs = ["Beatles- Get Back", "Beethoven 9th Symphony", "Bryan Adams- One Night Love Affair", "Asia- Only Time Will Tell", "Fun- We are young", "Eagles- Doolin Dalton",  "Jurassic Park Theme", "Mozart- Eine Kleine NachtMusik", "Mozart- Marriage of Figaro", "Four Seasons- Cant Take My Eyes Off of You", "Rocky Theme- Gonna Fly Now", "Counting Crows- Hanging Around", "Counting Crows- Einstein On the Beach", "Go Gos- Head Over Heels", "Bryan Adams- Long Gone", "Bruce Springsteen- Im going down", "Barenaked Ladies- One Week", "Blow Monkeys- You dont own me", "Bob Marley- Three Little Birds", 
 "Heart- Nothing at all", "Jefferson Starship- Find Your Way Back", "George Thorogood-I Drink Alone", "Beatles- I Saw Her Standing There", "Bonnie Raitt- Thing Called Love", "Cyndi Lauper- The Goonies R Good Enough",
 "Carl Douglas- Kung Fu Fighting", "Bananarama- Cruel Summer"];
 
