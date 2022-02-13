@@ -2,6 +2,7 @@ const musicContainer = document.getElementById("music-container");
 const playBtn = document.getElementById("play");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
+const shuffleBtn = document.getElementById("shuffle");
 
 const audio = document.getElementById("audio");
 const progress = document.getElementById("progress");
@@ -34,6 +35,7 @@ function playSong() {
   musicContainer.classList.add("play");
   playBtn.querySelector("i.fa").classList.remove("fa-play");
   playBtn.querySelector("i.fa").classList.add("fa-pause");
+  playBtn.querySelector("i.fa").classList.add("fa-shuffle");
 
   audio.play();
 }
@@ -43,6 +45,7 @@ function pauseSong() {
   musicContainer.classList.remove("play");
   playBtn.querySelector("i.fa").classList.add("fa-play");
   playBtn.querySelector("i.fa").classList.remove("fa-pause");
+  playBtn.querySelector("i.fa").classList.remove("fa-shuffle");
 
   audio.pause();
 }
