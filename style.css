@@ -90,7 +90,7 @@ h1 {
 .action-btn {
   background-color: #fff;
   border: 0;
-  color: #dfdbdf;
+  color: #18e265;
   font-size: 20px;
   cursor: pointer;
   padding: 10px;
@@ -98,7 +98,7 @@ h1 {
 }
 
 .action-btn.action-btn-big {
-  color: #cdc2d0;
+  color: #186106;
   font-size: 30px;
 }
 

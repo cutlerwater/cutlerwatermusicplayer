@@ -50,6 +50,14 @@ function pauseSong() {
   audio.pause();
 }
 
+function shuffleSong() {
+  playBtn.querySelector("i.fa").classList.add("fa-play");
+  playBtn.querySelector("i.fa").classList.remove("fa-pause");
+  playBtn.querySelector("i.fa").classList.remove("solid fa-shuffle");
+
+  audio.shuffle();
+}
+
 // Previous song
 function prevSong() {
   songIndex--;
@@ -62,6 +70,8 @@ function prevSong() {
 
   playSong();
 }
+
+
 
 // Next song
 function nextSong() {
